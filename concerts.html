@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- site metas -->
+
+  <title>Nastupi</title>
+
+  <meta name="keywords" content="music, singer, DJ, deejay, guitar, piano, live music, reservation, events">
+  <meta name="description" content="Singer and deejay">
+  <meta name="author" content="J.V.">
+  <!-- fevicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+    media="screen">
+
+</head>
+<!-- body -->
+
+<body class="main-layout contineer_page">
+  <!-- loader  -->
+  <div class="loader_bg">
+    <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+  </div>
+  <!-- end loader -->
+  <!-- header -->
+  <header>
+    <!-- header inner -->
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col logo_section">
+            <div class="full">
+              <div class="center-desk">
+                <div class="logo">
+                  <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-10 col-lg-10 col-md-10 col-sm-9">
+
+            <div class="menu-area">
+              <div class="limit-box">
+                <nav class="main-menu ">
+                  <ul class="menu-area-main">
+                    <li> <a href="index.html">Početna</a> </li>
+                    <li> <a href="about.html">O nama</a> </li>
+                    <li class="active"> <a href="concerts.html">Nastupi </a> </li>
+                    <li> <a href="numere.html">Snimljeno | numere </a> </li>
+                    <li> <a href="gallery.html">Galerija</a> </li>
+                    <li> <a href="contact.html">Kontakt</a> </li>
+                  </ul>
+                </nav>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end header inner -->
+
+    <!-- end header -->
+
+  </header>
+
+
+  <div class="backgro_mh">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heding">
+            <h2>Nastupi</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- upcoming -->
+  <div id="upcoming" class="upcoming">
+    <div class="container-fluid padding_left3">
+      <div class="row display_boxflex">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+          <div class="box_text">
+            <div class="titlepage">
+              <h2>Putovanje kroz naše scenske nastupe</h2>
+            </div>
+            <p>Zavirite iza kulisa ovih muzičkih avantura kroz kolekciju reklamnih postera sa prošlih nastupa.
+              Svaki poster je vlastita priča, koji označavaju mjesta gdje smo dijelili strast prema muzici sa
+              zajednicom.
+              Ovi vizuelni prikazi su poziv na putovanje kroz različite lokacije i događaje koje smo obogatili zvukom i
+              ritmom.
+              Ovi reklamni posteri svjedoče o jedinstvenim trenucima kreativnosti i interakcije sa publikom koje smo
+              doživjeli
+              na različitim lokacijama.
+              Pogledajte i ostale postere, odnosno naša prethodna ili buduća gostovanja.</p>
+          </div>
+        </div>
+
+        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 border_right">
+          <div class="upcomimg">
+            <figure><img src="images/godina2023.png" alt="#" /></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter za pretragu -->
+
+    <div class="centerMain">
+      <div class="image-filter">
+        <h1>Pretraga po izvođaču</h1>
+        <!--<label for="filter-select" class="filter-label">Filter:</label>-->
+        <div class="ajV">
+        <select id="filter-select">
+          <option value="all">Pogledaj sve</option>
+          <option value="DJ Jole">DJ Jole</option>
+          <option value="Pedja">Peđa Vukićević</option>
+        </select>
+        <p id="result-count" class="result-count"></p>
+      </div>
+      </div>
+    </div>
+
+    <div class="image-gallery">
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/" alt="Slika 1" class="gallery-image">
+        <div class="image-description">Opis slike 1</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery3.jpg" alt="Slika 2" class="gallery-image">
+        <div class="image-description">Opis slike 2</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery3.jpg" alt="Slika 3" class="gallery-image">
+        <div class="image-description">Opis slike 3</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery3.jpg" alt="Slika 4" class="gallery-image">
+        <div class="image-description">Opis slike 4</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery3.jpg" alt="Slika 5" class="gallery-image">
+        <div class="image-description">Opis slike 5</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery3.jpg" alt="Slika 6" class="gallery-image">
+        <div class="image-description">Opis slike 6</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery3.jpg" alt="Slika 7" class="gallery-image">
+        <div class="image-description">Opis slike 7</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery3.jpg" alt="Slika 8" class="gallery-image">
+        <div class="image-description">Opis slike 8</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery3.jpg" alt="Slika 9" class="gallery-image">
+        <div class="image-description">Opis slike 9</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box"  data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box"  data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box"  data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box"  data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="Pedja">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+      <div class="image-box" data-category="DJ Jole">
+        <img src="images/gallery4.jpg" alt="Slika 10" class="gallery-image">
+        <div class="image-description">Opis slike 10</div>
+      </div>
+    </div>
+
+  </div>
+  <!-- end upcoming -->
+
+
+  <!--  footer -->
+  <footer>
+    <div class="footer ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <form class="contact_bg">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="titlepage">
+                    <h2>Kontaktirajte nas</h2>
+                  </div>
+                  <div class="col-md-12">
+                    <input class="contactus" placeholder="Vaše ime i prezime" type="text" name="Vaše ime i prezime">
+                  </div>
+                  <div class="col-md-12">
+                    <input class="contactus" placeholder="Vaša e-mail adresa" type="text" name="Vaša e-mail adresa">
+                  </div>
+                  <div class="col-md-12">
+                    <input class="contactus" placeholder="Broj telefona" type="text" name="Broj telefona">
+                  </div>
+                  <div class="col-md-12">
+                    <textarea class="textarea" placeholder="Poruka" type="text" name="Poruka"></textarea>
+                  </div>
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <button class="send">Pošalji</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+          </div>
+          <div class="col-md-12 border_top">
+            <form class="news">
+              <h3>Pratite novosti i sledeća gostovanja</h3>
+              <input class="newslatter" placeholder="ENTER YOUR MAIL" type="text" name=" UNESITE VAŠU E-MAIL ADRESU">
+              <button class="submit">PRATI</button>
+            </form>
+          </div>
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                <div class="address">
+                  <ul class="loca">
+                    <li>
+                      <a href="#"><img src="icon/loc.png" alt="#" /></a>Danilovgrad, Crna Gora
+                    <li>
+                      <a href="#"><img src="icon/email.png" alt="#" /></a>josif.vukicevic@outlook.com
+                    </li>
+                  </ul>
+
+
+                </div>
+              </div>
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                <ul class="social_link">
+                  <li><a href="https://www.youtube.com/watch?v=BgeEFwRkZvo"><i class="fa fa-youtube"
+                        aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/deejay_jole?igsh=NjN6OWw1b21sZmU4"><i class="fa fa-instagram"
+                        aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.facebook.com/pedja.vukicevic.39?mibextid=2JQ9oc"><i class="fa fa-facebook"
+                        aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/pedjavukicevic?igsh=M3ppd2Jmd2o0cnNh"><i
+                        class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <p>Sva prava zadržana <a href="#"></a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- end footer -->
+  <!-- Javascript files-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/plugin.js"></script>
+  <!-- sidebar -->
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+  <script src="js/script-for-filter.js"></script>
+
+
+</body>
+
+</html>
